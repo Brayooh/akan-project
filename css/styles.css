@@ -1,6 +1,6 @@
 @import url('///home/alex/Desktop/week2/images/pic.jpg');
 body{
-  background-image: url('/home/student/Documents/moringa-school-projects/project-week-2/images/pic.jpg');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgptWn0V_s260-QnVU75bg8vU-INm5EZ9vtAOx0sLKSkZoZxI');
   background-size: cover;
 }
 h1{
@@ -25,13 +25,13 @@ h1{
   background-size: cover;
 }
 .overlay{
-  border-radius: 5px 0 0 5px;
+  border-radius:  5px 0 0 5px;
   height: 670px;
 }
 .akan{
   font-size: 40px;
   padding-top: 20px;
-  font-weight: bolder;
+  font-weight: bold;
   font-family: system-ui;
 }
 .top-form{
@@ -75,7 +75,9 @@ h1{
   color: #000000;
   font-size: 28px;
 }
-.landing{
-  height: 70%;
-  width: 70%;
+#panel{
+  align-items: center;
+  margin-left: 50px;
+
 }
+

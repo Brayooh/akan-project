@@ -25,7 +25,7 @@ function getinput() {
 function calculateDay() {
   getinput();
   dayOfWeek = ((((century / 4) - 2 * century - 1) + ((5 * year / 4) + ((26 * (month + 1) / 10)) +
-    dayOfMonth) % 7) - 1;
+    dayOfMonth) % 7) - 1);
   console.log(dayOfWeek);//Test the calculateDay function
   return (Math.floor(dayOfWeek));
   if (dayOfWeek < 0) {
@@ -110,7 +110,7 @@ function checkGender() {
           break;
 
       }
-    break
+      break
     default:
       console.log("pass");//Test gender switch
   }

@@ -16,18 +16,7 @@ h1{
   background-image: #626f92;
   box-shadow: 1px 0px 2px #ffffff;
 }
-.left{
-  background-image: url('////home/student/Documents/moringa-school-projects/project-week-2/images');
-  background-size: center;
-  height: 670px;
-  border-radius: 10px 0 0 10px;
-  margin: 0;
-  background-size: cover;
-}
-.overlay{
-  border-radius:  5px 0 0 5px;
-  height: 670px;
-}
+
 .akan{
   font-size: 40px;
   padding-top: 20px;
@@ -45,9 +34,9 @@ h1{
 }
 .p-text{
   margin: 30px 30px 30px 10px;
-  color: #4c4c74;
+  color: #123857;
   font-size: 22px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: system-ui
 }
 .genders{
   margin-left: 30px;
@@ -75,9 +64,14 @@ h1{
   color: #000000;
   font-size: 28px;
 }
-#panel{
-  align-items: center;
-  margin-left: 50px;
 
+.about{
+  font-size: 15px;
 }
 
+.panel{
+ left: 20px;
+}
+.tabs{
+  
+}

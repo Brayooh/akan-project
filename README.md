@@ -1,11 +1,11 @@
 # Project name
 Akan Name Generator
 
-## Authors
+# Authors
 - [Brian Ndichu](https://github.com/brayooh)
-## Description of project 
+# Description of project 
  A web application that can generate Akan names by keying in your date, month and year of birth. 
-## Project setup instructions
+# Project setup instructions
 To start using this project use the following commands:
 
 - `git clone https://github.com/Brayooh/week-2-project.git`
@@ -23,7 +23,6 @@ To start using this project use the following commands:
 -`css`
 -`java script`
 
-## License info
+# License info
 MIT License
-
 Copyright (c) 2019 Brian Ndichu

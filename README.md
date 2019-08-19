@@ -18,6 +18,11 @@ To start using this project use the following commands:
 -`0701259902`
 -`brianndichu.bn@gmail.com`
 
+#Technology used 
+-`html`
+-`css`
+-`java script`
+
 ## License info
 MIT License
 

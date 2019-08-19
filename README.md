@@ -2,7 +2,8 @@
 
 ## Authors
 - [Brian Ndichu](https://github.com/brayooh)
-
+## Description of project 
+ A web application that can generate Akan names by keying in your date, month and year of birth. 
 ## Project setup instructions
 To start using this project use the following commands:
 
@@ -10,6 +11,8 @@ To start using this project use the following commands:
 - `cd hello-world`
 - `atom .`
 - `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)
+
+##
 
 ## License info
 MIT License

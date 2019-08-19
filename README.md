@@ -6,7 +6,7 @@
 ## Project setup instructions
 To start using this project use the following commands:
 
-- `git clone https://github.com/moringaschool/hello-world.git`
+- `git clone https://github.com/Brayooh/week-2-project.git`
 - `cd hello-world`
 - `atom .`
 - `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)

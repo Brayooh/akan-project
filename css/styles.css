@@ -22,6 +22,7 @@ h1{
   padding-top: 20px;
   font-weight: bold;
   font-family: system-ui;
+  color: #1e0b88;
 }
 .top-form{
   margin-top: 30px;
@@ -35,7 +36,7 @@ h1{
 .p-text{
   margin: 30px 30px 30px 10px;
   color: #123857;
-  font-size: 22px;
+  font-size: 20px;
   font-family: system-ui
 }
 .genders{
@@ -63,13 +64,19 @@ h1{
   margin-top: 30px;
   color: #000000;
   font-size: 28px;
+
 }
 
-.about{
-  font-size: 15px;
+#p-text{
+  margin: 30px 30px 30px 10px;
+  color: #0b538f;
+  font-size: 26px;
+  margin-left: 0px;
+  font-family: system-ui;
 }
-
-.panel{
- left: 20px;
+.image{
+  float: right;
+  padding-left: ;
+  padding-right: ;
+  padding-bottom: 0%;
 }
-

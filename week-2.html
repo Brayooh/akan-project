@@ -13,55 +13,69 @@
 </head>
 
 <body>
-    <div class="container">
-      <h1 class="text-center akan">Know Your Birthday</h1>             
-        <ul class="nav nav-tabs" role="tablist">
-          <li><a href="week-2.html">Home</a></li> 
-          <li><a href="week-2-about.html">About</a></li>
-        </ul>
-    </div>
-    <div class="container">
-      <div class="panel">
-        <div class=" col-sm-7">
-            <div class="col-md-12 offset-md-0">
-            <h3 class="p-text"><strong>Eager to know your birthday?</strong></h3>
-              <p class="p-text"><em></em>Know Your Birthday</Eager> is a web application that
-                    takes your birthday and calculates the day of the week you were born and
-                    depending on the gender using <a href="https://en.wikipedia.org/wiki/Akan_names">Akan Names</a> . 
-                    <img src="http://www.myfreephotoshop.com/wp-content/uploads/2015/10/367.jpg"
-                      width="94%" height="40%">
-                </p>
-            </div>
+  <div class="container">
+    <h1 class="text-center akan">Akan Name Generator</h1>
+    <ul class="nav nav-tabs" role="tablist">
+      <li><a href="week-2.html">Home</a></li>
+      <li><a href="week-2-about.html">About</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="panel">
+      <div class=" col-sm-7">
+        <div class="col-md-10 offset-md-0">
+          <h2 id="p-text"><strong>Eager to know your Akan name?</strong></h2>
+          <p class="p-text"><em>Know Your Akan Name</em></Eager> is a web application that
+            takes your birthday and calculates the day of the week you were born and
+            depending on the gender using <a href="https://en.wikipedia.org/wiki/Akan_names">Akan Names</a> .
+          </p>
+          <h3>Steps;</h3><div class="image">
+              <img src="http://www.myfreephotoshop.com/wp-content/uploads/2015/10/367.jpg" width="40%" height="40%">
+          </div>
+            <ol>
+              <li>Enter your year of birth</li>
+              <li>Enter your date of birth</li>
+              <li>Enter your gender</li>
+              <li>Click 'show results' to see akan name</li>
+            </ol>
           </div>
         </div>
+      </div>
       <div class="tabs">
-       <div class=" col-sm-5">    
-        <div class="form-group">
-          <label for="century" class="labels">Century:</label>
+        <div class=" col-sm-5">
+          <div class="form-group">
+            <label for="century" class="labels">Century:</label>
             <input type="number" class="form-control" placeholder="Enter the century" id="century" required min="0"
-                max="40">
-        </div>
-        <div class="form-group">
-          <label for="year" class="labels">Year:</label>
-          <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0"
-                max="100">
-         </div>
-         <div class="form-group">
-          <label for="month" class="labels">Month:</label>
-           <input type="number" class="form-control" placeholder="Enter the month" id="monthday" required min="0"
-                max="12">
-         </div>
-           <form class="radio-button">
-              <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
-              <input type="radio" class="gender labels" value="male" id="rad1" name="rads" required>Male
-            </form>
-            <br>
-            <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
-                onclick="cheDayOfWeek();">Show Result</button></a>
-            <h1 id="result"></h1>
+              max="40">
           </div>
-        </div>       
-  <script src="js/style.js"></script>
+          <div class="form-group">
+            <label for="year" class="labels">Year:</label>
+            <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
+          </div>
+          <div class="form-group">
+            <label for="month" class="labels">Month:</label>
+            <input type="number" class="form-control" placeholder="Enter the month" id="monthday" required min="0"
+              max="12">
+          </div>
+          <div class="form-group">
+              <label for="day" class="labels">Day:</label>
+              <input type="number" class="form-control" placeholder="Enter the day" id="day" required min="0"
+                max="31">
+            </div>
+          <form class="radio-button">
+            <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+            <input type="radio" class="gender labels" value="male" id="rad1" name="rads" required>Male
+          </form>
+          <br>
+          <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
+              onclick="cheDayOfWeek();">Show Result</button></a>
+          <h1 id="result"></h1>
+        </div>
+      </div>
+    </div>
+    </div>
+      <script src="js/style.js"></script>
 </body>
 
 </html>

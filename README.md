@@ -13,7 +13,7 @@ To start using this project use the following commands:
 - `atom .`
 - `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)
 
-##Contact information
+# Contact information
 -`https://github.com/Brayooh`
 -`0701259902`
 -`brianndichu.bn@gmail.com`

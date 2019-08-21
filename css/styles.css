@@ -74,17 +74,11 @@ h1{
   margin-left: 0px;
   font-family: system-ui;
 }
-.image{
-  float: right;
-  padding-left: ;
-  padding-right: ;
-  padding-bottom: 0%;
-}
 .amg-logo{
   margin-top: -6%;
   margin-left: 18%;
-
-}.link{
+}
+.link{
   color: #000000;
 }
 .footer{
